@@ -11,7 +11,7 @@ Support is not gauranteed, but feel free to run this spin, I will reply to issue
 
 ## Todo:
 
-[] Start making a to-do list
-[] Sign this image
-[] Investigate possibility to move this outside of GitHub
-[] Actually start changing the image to my own needs
+- [ ] Start making a to-do list  
+- [ ] Sign this image  
+- [ ] Investigate possibility to move this outside of GitHub
+- [ ] Actually start changing the image to my own needs
