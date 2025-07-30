@@ -34,7 +34,7 @@ modules:
         - org.mozilla.firefox
         - org.gnome.Loupe
         - org.gnome.Builder
-        - org.fedoraproject.Sdk.Extension.texlive
+        - org.freedesktop.Sdk.Extension.texlive
         - org.texstudio.TeXstudio
         - se.sjoerd.Graphs
         - com.spotify.Client
