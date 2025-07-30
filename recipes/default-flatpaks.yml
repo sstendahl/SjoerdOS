@@ -1,0 +1,28 @@
+modules:
+  - type: default-flatpaks
+    configurations:
+      - notify: false
+        scope: system
+        install:
+          - com.mattjakeman.ExtensionManager
+          - org.gnome.clocks
+          - org.gnome.FileRoller
+          - org.gnome.Firmware
+          - org.gnome.Loupe
+          - org.gnome.TextEditor
+          - page.tesk.Refine
+          - org.mozilla.firefox
+          - org.gnome.Builder
+          - org.freedesktop.Sdk.Extension.texlive
+          - org.texstudio.TeXstudio
+          - se.sjoerd.Graphs
+          - com.spotify.Client
+          - com.valvesoftware.Steam
+          - org.libreoffice.LibreOffice
+          - org.gnome.Boxes
+          - org.gimp.GIMP
+          - org.ghidra_sre.Ghidra
+          - app.zen_browser.zen
+          - org.sqlitebrowser.sqlitebrowser
+          - com.github.skylot.jadx
+          - com.github.tchx84.Flatseal
