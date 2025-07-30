@@ -6,8 +6,8 @@ name: SjoerdOS
 description: This is my personal OS image.
 
 # the base image to build on top of (FROM) and the version tag to use
-base-image: ghcr.io/ublue-os/silverblue-main
-image-version: 41 # latest is also supported if you want new updates ASAP
+base-image: ghcr.io/ublue-os/silverblue-main:nvidia
+image-version: latest # latest is also supported if you want new updates ASAP
 
 # module configuration, executed in order
 # you can include multiple instances of the same module
@@ -36,8 +36,21 @@ modules:
       install:
         - org.mozilla.firefox
         - org.gnome.Loupe
-      remove:
-        - org.gnome.eog
+        - org.gnome.Builder
+        - runtime/org.fedoraproject.Sdk.Extension.texlive/x86_64/f42
+        - org.texstudio.TeXstudio
+        - se.sjoerd.Graphs
+        - com.spotify.Client
+        - com.valvesoftware.Steam
+        - org.libreoffice.LibreOffice
+        - org.gnome.Boxes
+        - org.gimp.GIMP
+        - org.ghidra_sre.Ghidra
+        - app.zen_browser.zen
+        - org.sqlitebrowser.sqlitebrowser
+        - com.github.skylot.jadx
+        - com.github.tchx84.Flatseal
+        - page.tesk.Refine
     user: {} # Also add Flathub user repo, but no user packages
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
