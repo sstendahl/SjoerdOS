@@ -28,27 +28,27 @@ modules:
       - firefox
       - firefox-langpacks # also remove firefox dependency (not required for all packages, this is a special case)
 
-type: default-flatpaks
-configurations:
-  - install:
-      - org.mozilla.firefox
-      - org.gnome.Loupe
-      - org.gnome.Builder
-      - org.fedoraproject.Sdk.Extension.texlive
-      - org.texstudio.TeXstudio
-      - se.sjoerd.Graphs
-      - com.spotify.Client
-      - com.valvesoftware.Steam
-      - org.libreoffice.LibreOffice
-      - org.gnome.Boxes
-      - org.gimp.GIMP
-      - org.ghidra_sre.Ghidra
-      - app.zen_browser.zen
-      - org.sqlitebrowser.sqlitebrowser
-      - com.github.skylot.jadx
-      - com.github.tchx84.Flatseal
-      - page.tesk.Refine
-    user: {} # Also add Flathub user repo, but no user packages
+  - type: default-flatpaks
+    configurations:
+    - install:
+        - org.mozilla.firefox
+        - org.gnome.Loupe
+        - org.gnome.Builder
+        - org.fedoraproject.Sdk.Extension.texlive
+        - org.texstudio.TeXstudio
+        - se.sjoerd.Graphs
+        - com.spotify.Client
+        - com.valvesoftware.Steam
+        - org.libreoffice.LibreOffice
+        - org.gnome.Boxes
+        - org.gimp.GIMP
+        - org.ghidra_sre.Ghidra
+        - app.zen_browser.zen
+        - org.sqlitebrowser.sqlitebrowser
+        - com.github.skylot.jadx
+        - com.github.tchx84.Flatseal
+        - page.tesk.Refine
+      user: {} # Also add Flathub user repo, but no user packages
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
 
