@@ -12,7 +12,7 @@ modules:
           - page.tesk.Refine
           - org.mozilla.firefox
           - org.gnome.Builder
-          - org.freedesktop.Sdk.Extension.texlive
+          - runtime/org.freedesktop.Sdk.Extension.texlive//24.08
           - org.texstudio.TeXstudio
           - se.sjoerd.Graphs
           - com.spotify.Client
