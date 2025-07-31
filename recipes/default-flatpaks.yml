@@ -12,8 +12,6 @@ modules:
           - page.tesk.Refine
           - org.mozilla.firefox
           - org.gnome.Builder
-          - runtime/org.freedesktop.Sdk.Extension.texlive//24.08
-          - org.texstudio.TeXstudio
           - se.sjoerd.Graphs
           - com.spotify.Client
           - com.valvesoftware.Steam
