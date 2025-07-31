@@ -23,8 +23,11 @@ modules:
 
   - from-file: default-flatpaks.yml
 
-  - type: signing # this sets up the proper policy & signing files for signed images to work fully
-  - type: initramfs
+  - type: gnome-extensions
+    install:
+      - Caffeine
+      - Quick Close in Overview
+      - Alphabetical App Grid
 
   - type: os-release
     properties:
@@ -32,8 +35,6 @@ modules:
       NAME: SjoerdOS
       PRETTY_NAME: SjoerdOS
 
-  - type: gnome-extensions
-    install:
-      - Caffeine
-      - Quick Close in Overview
-      - Alphabetical App Grid
+  - type: signing # this sets up the proper policy & signing files for signed images to work fully
+
+  - type: initramfs
