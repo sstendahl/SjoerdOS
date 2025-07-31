@@ -1,8 +1,10 @@
 # SjoerdOS &nbsp; [![bluebuild build badge](https://github.com/sstendahl/sjoerdos/actions/workflows/build.yml/badge.svg)](https://github.com/sstendahl/sjoerdos/actions/workflows/build.yml)
 
-See the [BlueBuild docs](https://blue-build.org/how-to/setup/) for quick setup instructions for setting up your own repository based on this template.
+This is my personal spin of the Universal Blue `silverblue-nvidia` image.
 
-After setup, it is recommended you update this README to describe your custom image.
+Note that this essentially just a way to save time setting up real and virtual machines, nothing more fancy than that. It's essentially just the default upstream image, but with the apps and settings that I typically install on first-setup. Basically just like any other "distro" that claims to be unique. Essentially it's still Fedora Silverblue at its core.
+As the intended target audience of this image is me specifically, it's hyper-targeted to me personally and does not represent what I think a good distro would look like. This image may includes applications that are only relevant to a very limited target audience of n = 1.
+
 
 ## Installation
 
