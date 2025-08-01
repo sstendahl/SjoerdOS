@@ -1,7 +1,7 @@
 modules:
   - type: default-flatpaks
     configurations:
-      - notify: false
+      - notify: true
         install:
           - com.mattjakeman.ExtensionManager
           - org.gnome.clocks
