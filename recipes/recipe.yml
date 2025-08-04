@@ -17,6 +17,7 @@ modules:
   - type: rpm-ostree
     install:
       - docker
+      - texlive-scheme-full
     remove:
       - firefox
       - firefox-langpacks
