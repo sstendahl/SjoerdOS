@@ -19,7 +19,6 @@ modules:
       - https://copr.fedorainfracloud.org/coprs/bigjapka/VeraCrypt/repo/fedora-42/bigjapka-VeraCrypt-fedora-42.repo  
     install:
       - docker
-      - texlive-scheme-full
       - veracrypt
     remove:
       - firefox

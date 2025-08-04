@@ -2,6 +2,9 @@ modules:
   - type: default-flatpaks
     configurations:
       - notify: true
+      - scope: user
+	repo:
+	  title: Flathub (user)            
         install:
           - com.mattjakeman.ExtensionManager
           - org.gnome.clocks
@@ -9,6 +12,7 @@ modules:
           - org.gnome.Firmware
           - org.gnome.Loupe
           - org.gnome.TextEditor
+          - org.gnome.Showtime
           - page.tesk.Refine
           - org.mozilla.firefox
           - org.gnome.Builder
@@ -23,4 +27,11 @@ modules:
           - org.sqlitebrowser.sqlitebrowser
           - com.github.skylot.jadx
           - com.github.tchx84.Flatseal
+          - com.mattermost.Desktop
+          - org.signal.Signal
+          - org.freedesktop.Sdk.Extension.texlive
+      - scope: system
+	repo:
+	  title: Flathub (system)      
+        install:
           - org.freedesktop.Sdk.Extension.texlive
