@@ -6,6 +6,8 @@ modules:
           - com.mattjakeman.ExtensionManager
           - org.gnome.clocks
           - org.gnome.FileRoller
+          - org.gnome.Calculator
+          - org.gnome.Calendar
           - org.gnome.Loupe
           - org.gnome.TextEditor
           - org.gnome.Showtime
