@@ -25,4 +25,3 @@ modules:
           - com.github.tchx84.Flatseal
           - com.mattermost.Desktop
           - org.signal.Signal
-          - org.freedesktop.Sdk.Extension.texlive
