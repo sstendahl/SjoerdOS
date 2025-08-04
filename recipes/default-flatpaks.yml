@@ -23,3 +23,4 @@ modules:
           - org.sqlitebrowser.sqlitebrowser
           - com.github.skylot.jadx
           - com.github.tchx84.Flatseal
+          - org.freedesktop.Sdk.Extension.texlive
