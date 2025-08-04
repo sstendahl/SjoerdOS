@@ -3,8 +3,8 @@ modules:
     configurations:
       - notify: true
       - scope: user
-	repo:
-	  title: Flathub (user)            
+        repo:
+          title: Flathub (user)
         install:
           - com.mattjakeman.ExtensionManager
           - org.gnome.clocks
@@ -31,7 +31,7 @@ modules:
           - org.signal.Signal
           - org.freedesktop.Sdk.Extension.texlive
       - scope: system
-	repo:
-	  title: Flathub (system)      
-        install:
+         repo:
+           title: Flathub (system) 
+         install:
           - org.freedesktop.Sdk.Extension.texlive
