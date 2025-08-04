@@ -8,9 +8,23 @@ modules:
           - org.gnome.FileRoller
           - org.gnome.Calculator
           - org.gnome.Calendar
+          - org.gnome.Characters
+          - org.gnome.Camera
+          - org.gnome.Papers
           - org.gnome.Loupe
+          - org.gnome.gitlab.cheywood.Buffer
+          - org.gnome.Snapshot
+          - org.gnome.Weather
           - org.gnome.TextEditor
+          - org.gnome.font-viewer
           - org.gnome.Showtime
+          - org.gnome.Decibels
+          - dev.geopjr.Tuba
+          - com.github.finefindus.eyedropper
+          - de.haeckerfelix.Fragments
+          - org.gnome.gitlab.somas.Apostrophe
+          - app.drey.Biblioteca
+          - re.sonny.Workbench
           - page.tesk.Refine
           - org.mozilla.firefox
           - org.gnome.Builder
