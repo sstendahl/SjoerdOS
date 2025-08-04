@@ -2,14 +2,11 @@ modules:
   - type: default-flatpaks
     configurations:
       - notify: true
-      - scope: user
-        repo:
-          title: Flathub (user)
+      - scope: system
         install:
           - com.mattjakeman.ExtensionManager
           - org.gnome.clocks
           - org.gnome.FileRoller
-          - org.gnome.Firmware
           - org.gnome.Loupe
           - org.gnome.TextEditor
           - org.gnome.Showtime
@@ -29,9 +26,4 @@ modules:
           - com.github.tchx84.Flatseal
           - com.mattermost.Desktop
           - org.signal.Signal
-          - org.freedesktop.Sdk.Extension.texlive
-      - scope: system
-         repo:
-           title: Flathub (system) 
-         install:
           - org.freedesktop.Sdk.Extension.texlive
