@@ -44,5 +44,3 @@ alias tarx='tar -xzf'
 alias tarlist='tar -tzf'
 
 unset rc
-
-. "$HOME/.local/share/../bin/env"
