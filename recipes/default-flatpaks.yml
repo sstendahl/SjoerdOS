@@ -28,6 +28,7 @@ modules:
           - page.tesk.Refine
           - org.mozilla.firefox
           - org.gnome.Builder
+          - org.gnome.Maps
           - se.sjoerd.Graphs
           - com.spotify.Client
           - com.valvesoftware.Steam
