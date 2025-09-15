@@ -20,6 +20,7 @@ modules:
     install:
       - docker
       - veracrypt
+      - sl
     remove:
       - firefox
       - firefox-langpacks
