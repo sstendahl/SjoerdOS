@@ -23,7 +23,7 @@ if [ -d ~/.bashrc.d ]; then
     done
 fi
 
-alias unlock="rm -f /var/home/sstendahl/.var/app/com.jetbrains.PyCharm-Professional/config/JetBrains/PyCharm2025.1/.lock"
+alias unlock="rm -f ~/.var/app/com.jetbrains.PyCharm-Professional/config/JetBrains/PyCharm2025.2/.lock"
 alias just="ujust"
 alias please='sudo $(history -p !!)'
 
