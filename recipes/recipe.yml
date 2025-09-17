@@ -21,6 +21,7 @@ modules:
       - docker
       - veracrypt
       - sl
+      - hashcat
     remove:
       - firefox
       - firefox-langpacks
