@@ -1,3 +1,6 @@
+
+<img src="https://github.com/sstendahl/SjoerdOS/raw/main/files/system/usr/share/pixmaps/fedora_logo.svg" width="300">
+
 # SjoerdOS &nbsp; [![bluebuild build badge](https://github.com/sstendahl/sjoerdos/actions/workflows/build.yml/badge.svg)](https://github.com/sstendahl/sjoerdos/actions/workflows/build.yml)
 
 This is my personal spin of the Universal Blue `silverblue-nvidia` image.
