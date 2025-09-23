@@ -4,4 +4,4 @@ apps=['org.libreoffice.LibreOffice.desktop', 'org.libreoffice.LibreOffice.base.d
 
 [org.gnome.shell]
 enabled-extensions=['AlphabeticalAppGrid@stuarthayhurst', 'caffeine@patapon.info', 'middleclickclose@paolo.tranquilli.gmail.com']
-favorite-apps=['org.mozilla.firefox', 'org.gnome.Calendar.desktop', 'org.gnome.Nautilus.desktop', 'org.gnome.Software.desktop', org.gnome.TextEditor, 'org.gnome.Ptyxis.desktop', 'org.gnome.Calculator.desktop', 'org.gnome.Builder.desktop']
+favorite-apps=['org.mozilla.firefox', 'org.gnome.Calendar.desktop', 'org.gnome.Nautilus.desktop', 'org.gnome.Software.desktop', 'org.gnome.TextEditor', 'org.gnome.Ptyxis.desktop', 'org.gnome.Calculator.desktop', 'org.gnome.Builder.desktop']
