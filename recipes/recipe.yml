@@ -21,6 +21,7 @@ modules:
       - docker
       - veracrypt
       - binutils
+      - gdb
     remove:
       - firefox
       - firefox-langpacks
