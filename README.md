@@ -8,7 +8,7 @@ This is my personal spin of the Universal Blue `silverblue-nvidia` image.
 Note that this essentially just a way to save time setting up real and virtual machines, nothing more fancy than that. It's essentially just the default upstream image, but with the apps and settings that I typically install on first-setup. Basically just like any other "distro" that claims to be unique. 
 
 Essentially it's still Fedora Silverblue at its core.
-As the intended target audience of this image is me specifically, it's hyper-targeted to me personally and does not represent what I think a good distro would look like. This image may includes applications that are only relevant to a very limited target audience of n = 1.
+As the intended target audience of this image is me specifically, it's hyper-targeted to me personally and therefore doesn't neccesarily represent what I think a good distro would look like for general audiences. This image may includes applications that are only relevant to a very limited target audience of n = 1.
 
 
 ## Installation
