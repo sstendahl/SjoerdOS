@@ -37,7 +37,6 @@ modules:
           - org.gnome.Boxes
           - org.gimp.GIMP
           - org.ghidra_sre.Ghidra
-          - app.zen_browser.zen
           - org.sqlitebrowser.sqlitebrowser
           - com.github.skylot.jadx
           - com.github.tchx84.Flatseal
