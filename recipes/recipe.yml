@@ -22,6 +22,7 @@ modules:
       - veracrypt
       - binutils
       - gdb
+      - ddcutil
     remove:
       - firefox
       - firefox-langpacks
