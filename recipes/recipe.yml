@@ -23,6 +23,7 @@ modules:
       - binutils
       - gdb
       - ddcutil
+      - cargo
     remove:
       - firefox
       - firefox-langpacks
