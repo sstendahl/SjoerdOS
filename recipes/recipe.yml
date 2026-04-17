@@ -3,7 +3,7 @@
 # image will be published to ghcr.io/<user>/<name>
 name: sjoerdos
 description: Sjoerd's Silverblue image, based on silverblue-nvidia image from ublue-os.
-base-image: ghcr.io/ublue-os/silverblue-nvidia
+base-image: ghcr.io/ublue-os/silverblue-main # Temporarily without nvidia
 image-version: latest
 
 # module configuration, executed in order
@@ -23,7 +23,6 @@ modules:
       - binutils
       - gdb
       - ddcutil
-      - cargo
     remove:
       - firefox
       - firefox-langpacks
