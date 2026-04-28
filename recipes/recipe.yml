@@ -23,9 +23,8 @@ modules:
       - binutils
       - gdb
       - ddcutil
-    remove:
-      - firefox
-      - firefox-langpacks
+      - tesseract
+      - zbar
 
   - from-file: default-flatpaks.yml
 
