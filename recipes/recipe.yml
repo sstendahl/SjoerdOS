@@ -16,7 +16,7 @@ modules:
 
   - type: rpm-ostree
     repos:
-      - https://copr.fedorainfracloud.org/coprs/bigjapka/VeraCrypt/repo/fedora-42/bigjapka-VeraCrypt-fedora-42.repo  
+      - https://download.copr.fedorainfracloud.org/results/cyfrost/packages/fedora-$releasever-$basearch/
     install:
       - docker
       - veracrypt
