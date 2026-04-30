@@ -16,7 +16,7 @@ modules:
 
   - type: rpm-ostree
     repos:
-      - https://copr.fedorainfracloud.org/coprs/cyfrost/packages/repo/fedora-44/cyfrost-packages-fedora-44.repo
+      - https://copr.fedorainfracloud.org/coprs/bigjapka/VeraCrypt/repo/fedora-44/bigjapka-VeraCrypt-fedora-44.repo
     install:
       - docker
       - veracrypt
