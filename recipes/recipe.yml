@@ -16,7 +16,7 @@ modules:
 
   - type: rpm-ostree
     repos:
-      - https://download.copr.fedorainfracloud.org/results/cyfrost/packages/fedora-$releasever-$basearch/
+      - https://copr.fedorainfracloud.org/coprs/cyfrost/packages/repo/fedora-44/cyfrost-packages-fedora-44.repo
     install:
       - docker
       - veracrypt
