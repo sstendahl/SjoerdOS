@@ -26,6 +26,16 @@ modules:
       - tesseract
       - zbar
 
+  - type: script
+    secrets:
+      - type: env
+        name: AKMODS_PRIVKEY
+        mount:
+          type: file
+          destination: /tmp/akmods_privkey
+    scripts:
+      - virtualbox.sh
+
   - from-file: default-flatpaks.yml
 
   - type: gnome-extensions
